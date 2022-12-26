@@ -57,8 +57,8 @@ class GraphPlotState extends State<GraphPlot> {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
-    //heartRate = heartSpots[9].y;
-   // temperature = tempSpots[9].y;
+    heartRate = heartSpots[9].y;
+    temperature = tempSpots[9].y;
    // print(heartRate);
     return Scaffold(
       appBar: AppBar(
